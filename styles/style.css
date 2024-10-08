@@ -117,7 +117,7 @@
 /* vector section design */
 .vector {
     /* position: absolute; */
-    background-image: linear-gradient(90deg, rgb(7, 2, 17), rgb(7, 2, 17, 0)100%), url("/images/Vectorrr.png");
+    background-image: linear-gradient(90deg, rgb(7, 2, 17), rgb(7, 2, 17, 0)100%), url("../images/Vectorrr.png");
     border-radius: 16px;
     height: 600px;
     width: 1320px;
