@@ -212,4 +212,98 @@ main {
     background: rgb(255, 0, 0);
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+/* elipse section style */
+.elipse {
+    align-items: center;
+    justify-content: center;
+}
+
+.elipse .elipse-container {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* padding: 0px 144px; */
+    /* margin: 0 100px; */
+}
+
+.elipse1 {
+    /* flex-wrap: wrap; */
+    /* Group 46 */
+    /* float: left; */
+    /* position: left; */
+    height: 255px;
+    width: 393px;
+}
+
+.elipse1>h3 {
+    color: rgb(255, 0, 0);
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.elipse1>h1 {
+    color: rgb(7, 2, 17);
+    /* font-family: Merriweather; */
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.elipse1>p,
+.elipse3>p {
+    color: rgba(7, 2, 17, 0.6);
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.elipse2 div {
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+}
+
+.elipse2 .circle {
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 230px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.elipse3 {
+    width: 276px;
+}
+
+
+
+
+.elipse3>h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.elipse3>div {
+    margin-top: 40px;
+    /* border: 0.5 dotted gray; */
 }
