@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .merriweather-normal {
@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-main {
+.main {
     width: 1320px;
     height: 600px;
     margin: 45px auto;
@@ -438,4 +438,97 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+/* newsletter */
+
+
+.newsletter {
+    border-radius: 16px;
+
+    background-color: rgba(255, 0, 0, 0.05);
+
+
+
+}
+
+.news-description>div {
+    text-align: center;
+    padding-top: 86px;
+}
+
+.news-description>h2 {
+    color: rgb(7, 2, 17);
+    /* font-family: Merriweather; */
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.news-description>p {
+    color: rgba(7, 2, 17, 0.6);
+    /* font-family: Inter; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 212px;
+    padding-right: 212px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.input-box {
+    text-align: center;
+}
+
+.input-box input[type="email"] {
+    background-color: aliceblue;
+    padding: 22px 477px 22px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.last-btn {
+    border-radius: 25px;
+    padding: 25px auto;
+    height: 68px;
+}
+
+
+
+/* footern styles */
+
+.footer {
+    background: rgb(7, 2, 17);
+    margin: 30px 0px 0px 0px;
+    padding: 60px 40px 60px;
+
+}
+
+.footer-top {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding-left: 70px; */
+    /* gap: 5px; */
+}
+
+.footer-top>div {
+    /* width: 50%; */
+
+
 }
